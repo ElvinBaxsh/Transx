@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider Example</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <style>
+        .transx_content_slider .slick-slide {
+            text-align: center;
+            color: white;
+            background: gray;
+        }
+        .slick-prev, .slick-next {
+            background-color: black;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+        .slick-prev:before, .slick-next:before {
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="transx_content_slider">
+        <div class="transx_content_slide" style="background: url('./Home_Logistic_Transx_files/slider_4.jpg'); height: 100vh; background-position: center;background-size: cover; width: 1519px; position: relative; left: -3038px; top: 0px; z-index: 998; opacity: 0;">
+            <div class="container transx_full_cont">
+                <div class="row transx_full_cont">
+                    <div class="col-12 transx_full_cont">
+                        <div class="transx_content_slide_wrapper">
+                            <div class="transx_content_container">
+                                <div class="transx_content_wrapper_1">
+                                    <div class="transx_up_heading_overlay transx_overlay_align_center">TransX</div>
+                                    <h2 class="transx_content_slider_title">Ship Freight</h2>
+                                </div>
+                                <div class="transx_content_wrapper_2">
+                                    <div class="transx_content_slider_promo_text">
+                                        Roach yellowfin cutthroat trout zebra pleco ocean sunfish temperate bass pikehead elephant fish. Long-finned char northern pike bluegill temperate. Leopard danio píntano bonnetmouth; blue whiting, suckermouth armored catfish.
+                                    </div>
+                                </div>
+                                <div class="transx_content_wrapper_3">
+                                    <a class="transx_button transx_button--primary" href="#" target="_blank">Explore More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="transx_content_slide" style="background: url('./Home_Logistic_Transx_files/slider_4.jpg'); height: 100vh; background-position: center;background-size: cover; width: 1519px; position: relative; left: -3038px; top: 0px; z-index: 998; opacity: 0;">
+         <div class="container transx_full_cont">
+             <div class="row transx_full_cont">
+                 <div class="col-12 transx_full_cont">
+                     <div class="transx_content_slide_wrapper">
+                         <div class="transx_content_container">
+                             <div class="transx_content_wrapper_1">
+                                 <div class="transx_up_heading_overlay transx_overlay_align_center">TransX</div>
+                                 <h2 class="transx_content_slider_title">Ship Freight</h2>
+                             </div>
+                             <div class="transx_content_wrapper_2">
+                                 <div class="transx_content_slider_promo_text">
+                                     Roach yellowfin cutthroat trout zebra pleco ocean sunfish temperate bass pikehead elephant fish. Long-finned char northern pike bluegill temperate. Leopard danio píntano bonnetmouth; blue whiting, suckermouth armored catfish.
+                                 </div>
+                             </div>
+                             <div class="transx_content_wrapper_3">
+                                 <a class="transx_button transx_button--primary" href="#" target="_blank">Explore More</a>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+     <div class="transx_content_slide" style="background: url('./Home_Logistic_Transx_files/slider_4.jpg'); height: 100vh; background-position: center;background-size: cover; width: 1519px; position: relative; left: -3038px; top: 0px; z-index: 998; opacity: 0;">
+      <div class="container transx_full_cont">
+          <div class="row transx_full_cont">
+              <div class="col-12 transx_full_cont">
+                  <div class="transx_content_slide_wrapper">
+                      <div class="transx_content_container">
+                          <div class="transx_content_wrapper_1">
+                              <div class="transx_up_heading_overlay transx_overlay_align_center">TransX</div>
+                              <h2 class="transx_content_slider_title">Ship Freight</h2>
+                          </div>
+                          <div class="transx_content_wrapper_2">
+                              <div class="transx_content_slider_promo_text">
+                                  Roach yellowfin cutthroat trout zebra pleco ocean sunfish temperate bass pikehead elephant fish. Long-finned char northern pike bluegill temperate. Leopard danio píntano bonnetmouth; blue whiting, suckermouth armored catfish.
+                              </div>
+                          </div>
+                          <div class="transx_content_wrapper_3">
+                              <a class="transx_button transx_button--primary" href="#" target="_blank">Explore More</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+        <!-- Daha çox slayd əlavə edin -->
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.transx_content_slider').slick({
+                pauseOnHover: true,
+                autoplay: false,
+                infinite: true,
+                speed: 1200,
+                rtl: false,
+                prevArrow: '<button type="button" class="slick-prev">&larr;</button>',
+                nextArrow: '<button type="button" class="slick-next">&rarr;</button>'
+            });
+        });
+    </script>
+</body>
+</html>
