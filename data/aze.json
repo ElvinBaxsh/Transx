@@ -1,0 +1,36 @@
+{
+    "about_us": "“Port Unit” MMC şirkəti 2024-cü ildə təsis olunmuş özəl logistika təşkilatıdır. Müəssisəmiz yeni yaranmasına baxmayaraq, komandamız və rəhbərlik qlobal və yerli göndərmə, daşıma və anbar xidmətləri sahəsində böyük təcrübəyə malikdir. Qeyd edək ki, bu özəlliklərimiz, yüksək ixtisaslı və motivasiyalı idarəetmə və işçi heyəti bütün dünyaya idxal və ixracı, bütün növ logistik xidmətləri, daşınma və yükləmələri təklif etmək imkanı verir.",
+
+    "navbar": {
+        "home": "Ana Səhifə",
+        "services": "Xidmətlər",
+        "contact": "Əlaqə"
+    },
+    "tagline": {
+        "have_questions": "Hər hansı bir sualınız var?"
+    },
+    "aside": {
+        "phone_numbers": "Telefon nömrələri"
+    },
+    "headings": {
+        "how_we_work": "Necə işləyirik"
+    },
+    "icon_boxes": {
+        "listening_you_1": "Sizi dinləyirik",
+        "analyze_2": "Analiz Edirik",
+        "pricing_3": "Qiymətləndirmə",
+        "management_4": "Kyefiyyətli İdarəetmə"
+    },
+
+    "paragraphs": {
+        "paragraph_1": "İlkin məlumatları, yük və onun paketlənməsi, marşurut və digər məlumatları toplayırıq. Bu, sizə daha yaxşı xidmət göstərmək üçün vacibdir.",
+        "paragraph_2": "İlkin məlumatlar əsasında sizə ən  uyğun təklifin verilməsi üçün data bazamızdan istifadə edirik.",
+        "paragraph_3": "Yaxşı xidmət sizə qazandırır.",
+        "paragraph_4": "Prosesi standartlara uyğun şəkildə idarə etmək nəticəni müəyyənləşdirir. Sənədlərin düzgün tərtib edilməsindən gömrük əməliyyatlarına qədər bütün prosesi müşahidə edirik."
+    },
+    "up_headings": {
+        "partners": "Partnyorlar",
+        "partners_overlay": "Partnyorlar",
+        "companies_trust_us": "Bizə Güvənən Şirkətlər"
+    }
+}

@@ -2625,13 +2625,13 @@ body .transx_blog_listing_excerpt {
   top: 12px;
 }
 .transx_timeline_heading_and_buttons_part .transx_slider_arrows .slick-dots {
-  top: 20px;
+  top: 0px;
 }
 .transx_testimonials_wrapper .slick-dots li,
 .transx_slider_arrows .slick-dots li {
   width: 57px;
   padding: 15px 0;
-  margin-right: 6px;
+  margin-right: 15px;
   line-height: initial;
   position: relative;
   -webkit-transition: all 0.3s;
