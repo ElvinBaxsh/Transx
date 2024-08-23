@@ -1,5 +1,11 @@
 {
-    "about_us": "“Port Unit” MMC şirkəti 2024-cü ildə təsis olunmuş özəl logistika təşkilatıdır. Müəssisəmiz yeni yaranmasına baxmayaraq, komandamız və rəhbərlik qlobal və yerli göndərmə, daşıma və anbar xidmətləri sahəsində böyük təcrübəyə malikdir. Qeyd edək ki, bu özəlliklərimiz, yüksək ixtisaslı və motivasiyalı idarəetmə və işçi heyəti bütün dünyaya idxal və ixracı, bütün növ logistik xidmətləri, daşınma və yükləmələri təklif etmək imkanı verir.",
+    "about-us":{},
+        "about_us_p": "Portunit-də biz kiçik və orta biznesin üzləşdiyi logistik problemləri tanıyırıq.",
+
+        "about_us_p2": "Məqsədimiz bütün kateqoriyalarda olan bizneslərə bu pozuntuları aradan qaldırmaqda və bugünkü qlobal bazarda rəqabət qabiliyyətini artırmaqda kömək etməkdir. Buna nail olmaq üçün biz autsorsinq əməliyyatları və daşımaların idarə edilməsi xidmətlərini, eləcə də düzgün və vaxtında çatdırılmanı təmin etmək üçün yoxlama və sertifikatlaşdırma xidmətləri təqdim edirik. Qlobal olaraq geniş sahə üzrə xidmət təminatçıları şəbəkəmizlə biz, yerli qanun və vergi qaydaları çərçivəsində bütün təchizat zəncirindəki problemləri səmərəli şəkildə həll edirik. Ticarət təcrübəsi olan peşəkar komandamız daşınma, saxlama, gömrük rəsmiləşdirilməsi və əməliyyatları idarə etmək üçün təchiz edilmişdir. Amsterdam, Bakı, İstanbul, Yivu, Quançjou, Ninbo, Xian, Dubay, Mumbay, Barselona və Rotterdam da daxil olmaqla, əsas biznes mərkəzlərində çalışan peşəkarlarımız var. Müştərilərimiz və tərəfdaşlarımız əmtəə ticarəti şirkətlərini, idxalçıları/ixracatçıları, gəmi brokerlərini, tədqiqatçıları, liman agentlərini, ekspeditorları və digər əlaqəli xidmət təminatçılarını əhatə edir.",
+    
+   
+
 
     "navbar": {
         "home": "Ana Səhifə",
@@ -13,7 +19,7 @@
         "phone_numbers": "Telefon nömrələri"
     },
     "headings": {
-        "how_we_work": "Necə işləyirik"
+        "how_we_work": "NECƏ İŞLƏYİRƏM"
     },
     "icon_boxes": {
         "listening_you_1": "Sizi dinləyirik",
@@ -25,12 +31,31 @@
     "paragraphs": {
         "paragraph_1": "İlkin məlumatları, yük və onun paketlənməsi, marşurut və digər məlumatları toplayırıq. Bu, sizə daha yaxşı xidmət göstərmək üçün vacibdir.",
         "paragraph_2": "İlkin məlumatlar əsasında sizə ən  uyğun təklifin verilməsi üçün data bazamızdan istifadə edirik.",
-        "paragraph_3": "Yaxşı xidmət sizə qazandırır.",
+        "paragraph_3": "Keyfiyyətli xidməti əsas götürərək bazarın cari vəziyyətini analiz edir və sizə ən uyğun qiymətin təklif edilməsi üzərində işləyirik.",
         "paragraph_4": "Prosesi standartlara uyğun şəkildə idarə etmək nəticəni müəyyənləşdirir. Sənədlərin düzgün tərtib edilməsindən gömrük əməliyyatlarına qədər bütün prosesi müşahidə edirik."
     },
     "up_headings": {
         "partners": "Partnyorlar",
         "partners_overlay": "Partnyorlar",
         "companies_trust_us": "Bizə Güvənən Şirkətlər"
-    }
+    },
+    "portunit_additional":{},
+        "additional_title_one":"Malların vaxtında çatdırılması",
+        "additional_info_one":"Malların vaxtında çatdırılması sizə əlavə zaman qazandıracaq.",
+        "additional_title_two":"Sığorta və yüklərin mühafizəsi",
+        "additional_info_two":"Yüklər, müştəri istəyindən aslı olaraq müxtəlif sığortalarla təmin edilir.",
+        "portunit_image_box_info":"Təsəvvür edə biləcəyinizdən daha sürətli",
+
+
+        "content_slider_promo_text_one": "Səmərəliliyi təmin etmək, mükəmməlliyi təmin etmək.",
+        "content_slider_promo_text_two": "Yükünüzü Uğurlu Nəticələr üçün Sürətləndirin.",
+        "content_slider_promo_text_three": "Sürətli Həl Yolları, Yüksək Səviyyəli Verimlilik.",
+        "content_slider_promo_text_four": "Hər Üfüqdə Mükəmməliyi Təmin Edirik.",
+
+
+        "content_slider_title_one": "Qatar yükü",
+        "content_slider_title_two": "Dəniz yolu daşımaları",
+        "content_slider_title_three":"Quru Yol Daşımaları",
+        "content_slider_title_four":"Hava yolu daşımaları"
+    
 }

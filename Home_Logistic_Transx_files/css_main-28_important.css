@@ -183,3 +183,69 @@
 
 
 
+
+@media only screen and (max-width: 1023px) {
+  .transx_mobile_menu_container .transx_main-menu>li.current-menu-ancestor>a:after, body .transx_mobile_menu_container .quadmenu-navbar-nav>li.current-menu-ancestor>a:after {
+      content: '';
+      width: 30px;
+      height: 2px;
+      display: none;
+      margin-top: 1px;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      -webkit-transform: none;
+      transform: none;
+  }
+}
+
+
+.quadmenu-navbar-nav > li.quadmenu-item-has-children > a:after {
+  content: none !important; 
+  display: none !important; 
+}
+.quadmenu-navbar-nav > li.quadmenu-item-has-children > a:before {
+  content: none !important; 
+  display: none !important;
+}
+#menu-item-139.quadmenu-navbar-nav > li.quadmenu-item-has-children > a:after {
+  /* display: inline-block !important; */
+  /* Pseudo-element içeriğini ekleyin (örneğin, bir ikon olabilir) */
+  /* Gerekirse diğer stil kurallarını ekleyin */
+  right: -19px !important;
+  top: 9px !important;
+  -webkit-transform: rotate(-45deg) !important;
+  transform: rotate(-45deg) !important;
+
+}
+/* #menu-item-139.quadmenu-item-has-children > a::before {
+  content: '' !important;
+  width: 6px !important;
+  height: 2px !important;
+  display: block !important;
+  position: absolute !important;
+  top: 50% !important;
+  -webkit-transition: all .3s !important;
+  transition: all .3s !important;
+} */
+
+
+.fa-caret-down{
+  /* margin-left: 2px; */
+  padding-left: 2px;
+  font-size: 15px;
+}
+
+
+
+/* #portunit_image_box_info {
+  white-space: pre-wrap;
+}
+
+#portunit_image_box_info::before {
+  content: "Təsəvvür edə biləcəyinizdən\n";
+}
+
+#portunit_image_box_info::after {
+  content: "daha sürətli";
+} */

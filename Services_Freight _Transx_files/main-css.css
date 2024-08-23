@@ -1,0 +1,14 @@
+#ship_img img{
+    width: 869px;
+    
+}
+
+
+.quadmenu-navbar-nav > li.quadmenu-item-has-children > a:after {
+    content: none !important; 
+    display: none !important; 
+  }
+  .quadmenu-navbar-nav > li.quadmenu-item-has-children > a:before {
+    content: none !important; 
+    display: none !important;
+  }
