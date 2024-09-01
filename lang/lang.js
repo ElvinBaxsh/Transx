@@ -5,7 +5,6 @@ document.getElementById('language-selector').addEventListener('change', function
 
 function loadLanguage(language) {
     if (language === 'en') {
-        // Varsayılan İngilizce içeriği geri yükle
         document.getElementById('about_us_p').textContent = "At Portunit, we recognize the logistical challenges that small and medium-sized businesses face."
         document.getElementById('about_us_p2').textContent = "Our goal is to assist businesses of all sizes in navigating these disruptions and enhancing their competitiveness in today’s global market. To achieve this, we provide outsourced operations and transportation management services, as well as inspection and certification services to ensure smooth and on-time delivery. With our extensive network of on-field service providers around the world, we efficiently address challenges throughout the supply chain while adhering to local legal and tax regulations. Our experienced team, drawn from trading backgrounds, is equipped to manage transportation, storage, customs clearance, and operations. We have professionals stationed in key business hubs, including Amsterdam, Baku, Istanbul, Yiwu, Guangzhou, Ningbo, Xiang, Dubai, Mumbai, Barcelona and Rotterdam. Our clients and partners encompass commodity trading companies, importers/exporters, shipbrokers, surveyors, port agents, freight forwarders, and other related service providers.";
         document.getElementById('nav-home').textContent = "Home";
@@ -36,22 +35,36 @@ function loadLanguage(language) {
         document.getElementById('additional_title_two').textContent = "Insurance and cargo protection";
         document.getElementById('additional_info_two').textContent = "Loads are provided with various insurances depending on the customer's request.";
         document.getElementById('portunit_image_box_info').textContent = "Faster than you can image";
-        document.getElementById('content_slider_promo_text_one').textContent = "Delivering Efficiency, Ensuring Excellence.";
-        document.getElementById('content_slider_promo_text_two').textContent = "Speeding Your Cargo to Success.";
-        document.getElementById('content_slider_promo_text_three').textContent = "Swift Solutions, Sky-High Efficiency.";
-        document.getElementById('content_slider_promo_text_four').textContent = "Delivering Excellence Across Every Horizon.";
+        document.getElementById('content_slider_promo_text_one').textContent = "Delivering Efficiency, Ensuring Excellence";
+        document.getElementById('content_slider_promo_text_two').textContent = "Speeding Your Cargo to Success";
+        document.getElementById('content_slider_promo_text_three').textContent = "Swift Solutions, Sky-High Efficiency";
+        document.getElementById('content_slider_promo_text_four').textContent = "Delivering Excellence Across Every Horizon";
         document.getElementById('content_slider_title_one').textContent = "Train Freight";
         document.getElementById('content_slider_title_two').textContent = "Ship Freight";
+        if (document.getElementById('content_slider_title_two').textContent === "Dəniz yolu daşımaları.") {
+            document.getElementById('content_slider_title_two').style.fontSize = '20px';
+        } else {
+            document.getElementById('content_slider_title_two').style.fontSize = '140px';
+        }
         document.getElementById('content_slider_title_three').textContent = "Truck Freight";
-        document.getElementById('content_slider_title_four').textContent = "Plane Freight";
+
+        if (document.getElementById('content_slider_title_three').textContent === "Quru Yol Daşımaları") {
+            document.getElementById('content_slider_title_three').style.fontSize = '20px';
+        } else {
+            document.getElementById('content_slider_title_three').style.fontSize = '140px';
+        }
+
         document.getElementById('content_slider_title_four').textContent = "Plane Freight";
 
         if (document.getElementById('content_slider_title_four').textContent === "Hava yolu daşımaları") {
-            document.getElementById('content_slider_title_four').style.fontSize = '140px';
+            document.getElementById('content_slider_title_four').style.fontSize = '60px';
+            document.getElementById('content_slider_title_four').style.lineHeight = '1.2';  // Satır yüksekliği de ayarlayabilirsiniz
         } else {
             document.getElementById('content_slider_title_four').style.fontSize = '140px';
+            document.getElementById('content_slider_title_four').style.lineHeight = '1.2';  // Aynı şekilde burada da satır yüksekliği eklenebilir
         }
-
+        
+        
 
         // document.getElementById('footer-contact-info').textContent = "Contact Info";
         // document.getElementById('footer-address').textContent = "Address";
@@ -90,15 +103,35 @@ function loadLanguage(language) {
                 document.getElementById('content_slider_promo_text_two').textContent = data.content_slider_promo_text_two
                 document.getElementById('content_slider_promo_text_three').textContent = data.content_slider_promo_text_three;
                 document.getElementById('content_slider_promo_text_four').textContent = data.content_slider_promo_text_four;
+
                 document.getElementById('content_slider_title_one').textContent = data.content_slider_title_one;
+                document.getElementById('content_slider_title_one').setAttribute('style', 'font-size: 90px ; line-height: 1.2;');
+
+
                 document.getElementById('content_slider_title_two').textContent = data.content_slider_title_two;
+                if (language === 'aze') {
+                    document.getElementById('content_slider_title_two').style.fontSize = '60px'; 
+                } else {
+                    document.getElementById('content_slider_title_two').style.fontSize = '140px'; 
+                };
+                document.getElementById('content_slider_title_two').setAttribute('style', 'font-size: 90px ; line-height: 1.2;');
+
                 document.getElementById('content_slider_title_three').textContent = data.content_slider_title_three;
+                if (language === 'aze') {
+                    document.getElementById('content_slider_title_three').style.fontSize = '90px'; 
+                } else {
+                    document.getElementById('content_slider_title_three').style.fontSize = '110px'; 
+                };
+                document.getElementById('content_slider_title_three').setAttribute('style', 'font-size: 90px ; line-height: 1.2;');
+
                 document.getElementById('content_slider_title_four').textContent = data.content_slider_title_four;
                 if (language === 'aze') {
-                    document.getElementById('content_slider_title_four').style.fontSize = '90px'; 
+                    document.getElementById('content_slider_title_four').style.fontSize = '90px';
                 } else {
-                    document.getElementById('content_slider_title_four').style.fontSize = '160px'; 
+                    document.getElementById('content_slider_title_four').style.fontSize = '140px';
                 }
+                document.getElementById('content_slider_title_four').setAttribute('style', 'font-size: 90px ; line-height: 1.2;');
+                
                 // document.getElementById('footer-contact-info').textContent = data.footer.contact_info;
                 // document.getElementById('footer-address').textContent = data.footer.address;
                 // document.getElementById('footer-follow-us').textContent = data.footer.follow_us;
